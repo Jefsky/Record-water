@@ -1,0 +1,23 @@
+{
+    "name": "多喝水",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "帮助记录您的喝水状态",
+    "icons": {
+        "128": "icons/drinks128x128.png"
+    },
+    "action": {
+        "default_popup": "resources/mian.html"
+    },
+    "permissions":
+    [
+        "storage"
+    ],
+    "content_scripts": [ 
+      {
+        "matches": [  "http://*/*","https://*/*"], 
+        "js": ["resources/mian.js"], 
+        "css": ["resources/mian.css"]
+      }
+    ]
+}
