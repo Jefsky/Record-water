@@ -1,4 +1,4 @@
-#box{
+#jefsky-record-water-box{
     min-width: 400px;
     height: 200px;
     font-size: 14px;
@@ -7,27 +7,27 @@
     display: block;
     text-align: center;
 }
-#content{
+#jefsky-record-water-content{
     margin: 20px auto;
     display: block;
     font-size: 20px;
     text-align: center;
 }
-#ml{
+#jefsky-record-water-ml{
     font-size: 25px;
     font-weight: bold;
     padding: 0 20px;
 }
-#water{
+#jefsky-record-water-water{
     font-size: 25px;
 }
-#drinked,#reset{
+#jefsky-record-water-drinked,#jefsky-record-water-reset{
     width: 150px;
     height: 30px;
     margin: 10px auto;
     display: block;
 }
-#msg{
+#jefsky-record-water-msg{
     margin-top: 15px;
     display: block;
     color: #A9A9A9;

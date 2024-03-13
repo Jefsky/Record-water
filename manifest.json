@@ -1,13 +1,16 @@
 {
-    "name": "多喝水",
-    "version": "0.0.0.1",
+    "name": "多喝水Record water",
+    "version": "0.0.0.2",
     "manifest_version": 3,
-    "description": "帮助记录您的喝水状态",
+    "description": "记录您的喝水情况，陪你健康每一天 Record your water intake, and keep healthy with you every day",
     "icons": {
         "128": "icons/drinks128x128.png"
     },
     "action": {
         "default_popup": "resources/mian.html"
+    },
+    "author": {
+      "email": "371048998@qq.com"
     },
     "permissions":
     [
